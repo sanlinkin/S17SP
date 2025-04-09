@@ -134,10 +134,10 @@ for g in e:
     if 'a' in g:
         print(g)  
 '''
-'''
+
 e=["Bhavani", "Chitra", "Sandeep", "Sanjana", "Yogitha", None, "Bhavani"]
 print(e)  
-
+'''
 e.append("Manju")
 print(e)
         
@@ -147,6 +147,7 @@ print(e)
 e.append(c) 
 print(e)   
         
+'''
 '''
 # list of squares for odd numbers:
 a=[]
@@ -158,8 +159,45 @@ for n in y:
         #print(n**2)
         a.append(n**2)
 print(a)
-        
-
-
-
+'''
+# copy list   
    
+f=e.copy()
+print(f)
+
+print(e.count("Bhavani"))
+
+# extend 
+e.extend(c)
+print('e.extend(c):', e)
+
+#'check length of c'
+#print(len(e))
+#print(e[10])
+#print(e[11])
+
+# index
+#e.index(value, start, stop)
+print(e.index(4.76))
+print('e.count("Bhavani"):',e.count("Bhavani"))
+print('e.count("Bhavani"):',e.index("Bhavani", 1))
+
+'''
+ Q. Find the indices of a element present in the list
+ '''
+print('c-->', c)
+print(c.pop(2))
+print(c)
+print(c.remove(True))
+print(c)
+print(c.remove("vivek"))
+print(c)
+print('c.pop()', c.pop())
+print(c)
+c.remove(True)
+print(c)
+
+
+
+
+
