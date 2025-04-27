@@ -165,7 +165,7 @@ for n in range(1, 6):
 1* * * *
 * * * * *
 '''
-
+'''
 for n in range(1, 6):
     
     for m in range(6-n):
@@ -176,9 +176,43 @@ for n in range(1, 6):
         
     print() 
 
+'''
+#left half pyramid
+'''
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+'''
+'''
+for j in range(6): #represents rows: switching lines
 
+    for k in range(6-j): #printing spaces
+        print(" ", end=" ")   
 
+    for i in range(j): #printing stars
+        print("*", end=" ")
+    print()    
+'''
+'''  
+* * * * *    
+* * * * *  
+* * * * *   
+* * * * *   
+* * * * *    
+      
+for j in range(5): #represents rows: switching lines
+
+    for k in range(5-j): #printing spaces
+        print("*", end=" ")   
+
+    for i in range(j): #printing stars
+        print("*", end=" ")
+    print()    
+'''   
+   
     
     
     
-
+ 

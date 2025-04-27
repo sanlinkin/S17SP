@@ -5,18 +5,18 @@ It is a memory space/ container which stores data
 OR
 It is name given to memory location/ container.
 
-Data stored in this container can be changed.
+Data stored in this container(variable) can be changed.
 
 Creation of variables:
 
 1. We need to specify the type of data the variables stores
 2. We need to give name to the variable
-3. Storing data in the variable (initialization)
+3. Storing data in the variable (initialization) --> assigning value for variable
 
 DataType VariableName = Value
 
 Invalid cases:
-
+(shouldn't start with numerical & must be in right side.)
 1stnum = 23
 26 = roll_on
 
@@ -43,5 +43,6 @@ print(num5)
 print(num6)
 
 print(num5+num6)
+
 
 

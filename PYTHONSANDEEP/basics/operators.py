@@ -55,8 +55,8 @@ print(not True)
 print(not False)
 
 print("=======Membership Operators========")
-print("A" in "alphabet") 
-"upper or lower case  through error/false"
+print("A" in "alpha8678bet") 
+"upper or lower case -> through error/false"
 print("i" in "alphabet")
 print("i" not in "alphabet")
 

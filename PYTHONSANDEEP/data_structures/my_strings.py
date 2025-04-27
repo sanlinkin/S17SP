@@ -12,6 +12,7 @@ Def: string is a character/ collection of characters
 Leading spaces: space at the beginning
 Trailing spaces: space at the end 
 '''
+'''
 name = ' Vivek Nagaraju ' #leading spaces
 
 print('name:', name)
@@ -86,7 +87,44 @@ print(name.isnumeric())
 
 print(name.isalnum())
 
+'''
+'''
+#print ("positive indexing")
+name="hello"
+print(name[0])
+print(name[1])    
+print(name[2])      
+print(name[3])  
+print(name[4])  
+#print ("negetive indexing")
+print(name[-1])
+print(name[-2])
+print(name[-3])
+print(name[-4])
+print(name[-5])
 
+'''
+'''
+name="yashwanth"
+
+index=-1
+reverse_string=""
+while index>-10:
+    reverse_string=reverse_string+name[index]
+    index=index-1
+print(reverse_string)
+'''
+'''
+name=input("enter your name")
+print(len(name))
+index=-1
+reverse_string=""
+while index>-(len(name)+1):
+    reverse_string=reverse_string+name[index]
+    index=index-1
+print(reverse_string)
+
+'''
 
 
 

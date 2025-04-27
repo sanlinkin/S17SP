@@ -158,20 +158,6 @@ print(type(f)) # conversion of boolean into boolean
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # float()
 # str()
 # complex()

@@ -23,7 +23,7 @@ Types of conditional statements:
 
 '''
 
-'''
+
 age=int(input("Enter your age:"))
 
 if age>=18 and age <=59:
@@ -54,16 +54,16 @@ else:
 if age in range(0, 13):
     print("you're a child")
     
-    elif age in range(13, 19):
-        
+    elif age in range(14, 19):
     print("you're an adolescent")
     
     elif age in range(19, 60):
-    print('you're ")
+    print("you're an adult")
+   ''' 
     
-'''
 
-if age>0:
+
+#if age>0:
 
     
 

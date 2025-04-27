@@ -12,7 +12,7 @@ Data Structures:
 * Type:
     1. list - []
     2. tuple - ()
-    3. set
+    3. set {}
     4. Dictionary - {}
 '''
 '''
@@ -31,7 +31,7 @@ list: is a data structure represented by []
         > negetive (starts from right to left)
     - Using slicing operator  
 4. list can be modified
-    Using slicing operator  list_name[sart : stop : step] -> takes index as input default values:
+    Using slicing operator  list_name[start : stop : step] -> takes index as input default values:
       start: index 0
       stop: last index
       step: 
@@ -51,11 +51,9 @@ list2=[]
 5. Repeat step 1 to 4 for all elements
 6. Print the new list created from the above process. print(list2)
 
-
+'''
 '''
 # a. creation of list
-
-
 a = []
 print(type(a))
 
@@ -66,16 +64,16 @@ print(b)
 
 c=[1, "abc", 4.76, True, 3+8j] # Heterogeneous data structure
 print(c)
-'''
-c={1:"vivek"}
-'''
-print(c)
 
+'''
+#c={1:"vivek"}
+#print(c)
+'''
 d=list(range(1, 20))
 print(d)
 
 # Accessing the elements using index - use only square brackets []
-print(c[4])
+print(c[3])
 print(c[-1])
 
 # Modification/replacement using index
@@ -102,6 +100,7 @@ print("====for loop====")
 for ele in c:
     print(ele)
 '''
+'''
 print("===while loop===")
 i=0
 while i<5:
@@ -114,6 +113,8 @@ print(c[1])
 print(c[2])
 print(c[3])
 print(c[4])
+
+'''
 '''
 i=0
 while i<len(d):
@@ -127,16 +128,18 @@ print(len(c))
 for n in d:
     if n%2 ==1:
         print(n)
-'''       
+'''   
+'''    
 # print word which contains 'a' in list(e)       
 e=["Bhavani", "Chitra", "Sandeep", "Sanjana", "Yogitha"]
 for g in e:
     if 'a' in g:
         print(g)  
 '''
-
+'''
 e=["Bhavani", "Chitra", "Sandeep", "Sanjana", "Yogitha", None, "Bhavani"]
 print(e)  
+'''
 '''
 e.append("Manju")
 print(e)
@@ -161,7 +164,7 @@ for n in y:
 print(a)
 '''
 # copy list   
-   
+'''   
 f=e.copy()
 print(f)
 
@@ -183,8 +186,11 @@ print('e.count("Bhavani"):',e.count("Bhavani"))
 print('e.count("Bhavani"):',e.index("Bhavani", 1))
 
 '''
+'''
  Q. Find the indices of a element present in the list
- '''
+
+'''
+'''
 print('c-->', c)
 print(c.pop(2))
 print(c)
@@ -196,6 +202,27 @@ print('c.pop()', c.pop())
 print(c)
 c.remove(True)
 print(c)
+
+'''
+''' 
+26/04/2025
+'''
+
+even_list=[]
+for i in range(1,25):
+    if i%2==0:
+        #print(i)
+        even_list.append(i) # add element to the list
+print(even_list)
+        
+#List comprehension
+even_list_comp={i for i in range(1,25) if i%2==0}
+print("even_list_comp", even_list_comp)
+
+
+
+        
+        
 
 
 
