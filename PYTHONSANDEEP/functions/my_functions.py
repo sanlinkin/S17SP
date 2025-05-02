@@ -64,13 +64,34 @@ print(addition(8,10))
 
 def multiplication(num,multiplier):
     result_mul=num*multiplier
-    print(result_mul)
-    
+    #print(result_mul)
+    return result_mul 
 multiplication(d, 5) 
+#or 
+# multiplication(addition(10,20), 5)
+
+
+def division_integer_division(dividend, divisor):
+    div_quotient = dividend/divisor
+    int_div_quotient = dividend//divisor
+    return div_quotient, int_div_quotient
+    
+div_output1,div_output2 =division_integer_division(7, 2)
+print(div_output1)
+print(div_output2)
 
 
 
+f, g=5,6
+print(f)
+print(g)
 
+def add_mul(a, b):
+    add_op=addition(a, b) # calling one function inside another function
+    mul_op=multiplication(a,b)
+    return add_op, mul_op
+    
+print(add_mul(5, 3))
 
 
 
