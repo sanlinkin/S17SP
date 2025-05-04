@@ -19,7 +19,7 @@ Invalid cases:
 (shouldn't start with numerical & must be in right side.)
 1stnum = 23
 26 = roll_on
-
+'''
 '''
 age = 10
 print(age)
@@ -43,6 +43,16 @@ print(num5)
 print(num6)
 
 print(num5+num6)
+'''
+
+# OOPS
+# press control key and click on any underline word to display builtins functions screen:
+name="chitra"
+name2="lakshmi"
+# A method of one class can be called using an object of that class.
+name.capitalize() 
+
+print(type(name))
 
 
 
