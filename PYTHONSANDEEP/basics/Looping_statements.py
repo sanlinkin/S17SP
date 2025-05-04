@@ -89,7 +89,6 @@ for n in range(1, 6):
 
 
 1)Upward right angled triangle
-  
 for n in range(1, 6):
     
     for n in range(n):
@@ -132,7 +131,7 @@ Results
       OR 
 for n in range(1, 6):
 
-    for n in range(6-n):
+    for m in range(6-n):
         print("*", end=" ")
     
     print()
