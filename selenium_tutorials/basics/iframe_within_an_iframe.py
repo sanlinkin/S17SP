@@ -24,7 +24,7 @@ iframe_btn.click()
 #('---------OR--------')
 # iframe_with_in_an_iframe = driver.find_element(By.PARTIAL_LINK_TEXT, 'iframe with in an iframe')
 # iframe_with_in_an_iframe.click()
-
+time.sleep(5)
 
 
 

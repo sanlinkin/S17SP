@@ -5,7 +5,7 @@ Created on 24 May 2025
 '''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
+
 
 '''1.Launching the Chrome browser'''
 options = webdriver.ChromeOptions()

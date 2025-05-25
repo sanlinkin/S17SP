@@ -6,7 +6,7 @@ Created on 24 May 2025
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
+
 
 '''1.Launching the Chrome browser'''
 options = webdriver.ChromeOptions()
@@ -35,7 +35,7 @@ driver.switch_to.frame(inner_frame)
 
 '''6. Enter text in the text Box'''
 input_text_bx = driver.find_element(By.XPATH, '/html/body/section/div/div/div/input')
-input_text_bx.send_keys('Ronaldhino')
+input_text_bx.send_keys('Ronaldinho')
 
 
 
