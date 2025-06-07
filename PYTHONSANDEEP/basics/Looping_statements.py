@@ -65,30 +65,32 @@ while count<=100:
         continue
     print(count)   
     count+=1
-    
+'''
+'''
 #print(range(10))
 
 for n in range (1, 100):
     if n == 50: 
         continue
     print(n) 
-    
+  
 for n in range (0, 100): #print only even numbers from 0 to 100
     if n%2 == 0:
         if n == 6:
             continue
         print(n) 
-        
+      
     
 for n in range(0, 100, 2): #(printing 2 steps every time)
     print(n) 
    
-  
+
 for n in range(1, 6):
     print("*", end=" ") #(end=" "stays in same line)
 
 
-1)Upward right angled triangle
+
+#1)Upward right angled triangle
 for n in range(1, 6):
     
     for n in range(n):
@@ -97,13 +99,15 @@ for n in range(1, 6):
     print() 
 
 
-(results)
+#(results)
+
 *
 **
 ***
 ****
 *****
 '''
+
 '''
   
   row number/ no. of stars  
@@ -114,7 +118,7 @@ for n in range(1, 6):
   5 / 1
   
 
-2)Invert or downward right angled triangle
+#2)Invert or downward right angled triangle
 for n in range(5, 0, -1):
     
     for n in range(n):
@@ -122,7 +126,8 @@ for n in range(5, 0, -1):
     
     print()
     
-Results
+#Results
+
 * * * * *
 * * * *
 * * *
@@ -142,7 +147,19 @@ for n in range(1, 6):
 #No. of stars(5) #stop value- row No.
 '''
 
-3)
+#3)Pyramid
+
+for n in range(1, 6):
+    
+    for m in range(6-n):
+        print(" ", end="")
+    
+    for i in range(n):
+        print("*", end=" ")
+        
+    print() 
+
+#Results
 
     *
    * *
@@ -163,28 +180,10 @@ for n in range(1, 6):
 11* * *
 1* * * *
 * * * * *
-'''
-'''
-for n in range(1, 6):
-    
-    for m in range(6-n):
-        print(" ", end="")
-    
-    for i in range(n):
-        print("*", end=" ")
-        
-    print() 
 
-'''
-#left half pyramid
-'''
-        *
-      * *
-    * * *
-  * * * *
-* * * * *
-'''
-'''
+
+#4) Left half pyramid
+
 for j in range(6): #represents rows: switching lines
 
     for k in range(6-j): #printing spaces
@@ -192,15 +191,20 @@ for j in range(6): #represents rows: switching lines
 
     for i in range(j): #printing stars
         print("*", end=" ")
-    print()    
+    print()  
+
+
+#Results
+
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
 '''
-'''  
-* * * * *    
-* * * * *  
-* * * * *   
-* * * * *   
-* * * * *    
-      
+ 
+#5) Square
+
 for j in range(5): #represents rows: switching lines
 
     for k in range(5-j): #printing spaces
@@ -208,8 +212,19 @@ for j in range(5): #represents rows: switching lines
 
     for i in range(j): #printing stars
         print("*", end=" ")
-    print()    
-'''   
+    print()  
+'''
+#Results
+
+* * * * *    
+* * * * *  
+* * * * *   
+* * * * *   
+* * * * *    
+
+'''     
+  
+   
    
     
     
